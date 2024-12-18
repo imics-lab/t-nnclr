@@ -22,8 +22,8 @@ def load_and_preprocess_har_data(data_dir='./data', logger=None):
         data_dir = Path(data_dir)
         
         # Load data
-        # X_unlabeled = np.load(data_dir / 'X_unlabeled.npy')
-        X_unlabeled = np.load(data_dir / 'X.npy')
+        X_unlabeled = np.load(data_dir / 'X_unlabeled.npy')
+        # X_unlabeled = np.load(data_dir / 'X.npy')
         X_labeled = np.load(data_dir / 'X.npy')
         y = np.load(data_dir / 'y.npy').squeeze()
         subjects = np.load(data_dir / 'sub.npy').squeeze()
