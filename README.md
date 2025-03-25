@@ -42,11 +42,11 @@ For detailed experimental results, including visualizations of training curves, 
 - `/data`: Scripts for downloading and processing datasets
 - `/models`: Neural network architectures for time series processing
 - `/utils`: Utility functions for data augmentation and evaluation
-- `/experiments`: Saved experiment results
+- `/notebooks`: Jupyter notebooks for experiments
 - `pretrain.py`: Implementation of the self-supervised pretraining phase
 - `finetune.py`: Implementation of the supervised fine-tuning phase
 - `main.py`: Script to run the full experiment pipeline
-- `t-nnclr.ipynb`: Jupyter notebook for interactive experimentation
+
 
 
 ## Dependencies
@@ -79,7 +79,7 @@ python data/download_data.py
 python main.py
 
 # Or open and run the notebook:
-jupyter notebook t-nnclr.ipynb
+jupyter notebook t-nnclr_example_run.ipynb
 ```
 
 
