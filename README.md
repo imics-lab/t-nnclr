@@ -34,7 +34,7 @@ The repository includes code to download and process Human Activity Recognition 
 ## Results
 
 Our experiments show that t-NNCLR can effectively learn from unlabeled time series data and transfer knowledge to supervised tasks. The method achieves competitive classification accuracy on HAR tasks while requiring fewer labeled examples. 
-For detailed experimental results, including visualizations of training curves, accuracy across folds, and confusion matrices, please refer to the [t-nnclr.ipynb](./t-nnclr.ipynb) notebook.
+For detailed experimental results, including visualizations of training curves, accuracy across folds, and confusion matrices, please refer to the [./notebooks/t-nnclr_example_run.ipynb](./notebooks/t-nnclr_example_run.ipynb) notebook example.
 
 
 ## Repository Structure
