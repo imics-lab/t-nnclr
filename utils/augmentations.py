@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from config import *
+from utils.config import *
 
 class Jittering(nn.Module):
     """

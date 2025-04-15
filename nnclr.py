@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from augmentations import get_augmenter
-from encoder import get_encoder, get_projection_head, get_prediction_head
-from config import *
+from utils.augmentations import get_augmenter
+from models.encoder import get_encoder, get_projection_head, get_prediction_head
+from utils.config import *
 
 class NNCLR(nn.Module):
     """

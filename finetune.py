@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.metrics import confusion_matrix
 
 from nnclr import NNCLR
-from config import *
+from utils.config import *
 
 class FineTuningConfig:
     """Configuration class for fine-tuning parameters"""
