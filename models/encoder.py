@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-from config import *
+from utils.config import *
 
 
 def get_1d_sincos_pos_embed(embed_dim, positions):

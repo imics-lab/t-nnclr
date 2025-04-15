@@ -7,8 +7,8 @@ from datetime import datetime
 
 from pretrain import pretrain
 from finetune import finetune, FineTuningConfig
-from config import *
-from data_loader import load_and_preprocess_har_data
+from utils.config import *
+from utils.data_loader import load_and_preprocess_har_data
 
 def setup_logging(experiment_dir):
     """Setup logging configuration."""

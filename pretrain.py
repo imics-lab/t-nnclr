@@ -5,7 +5,7 @@ from tqdm import tqdm
 import numpy as np
 
 from nnclr import NNCLR
-from config import *
+from utils.config import *
 
 def create_pretraining_dataloader(X_unlabeled, batch_size=BATCH_SIZE):
     """
